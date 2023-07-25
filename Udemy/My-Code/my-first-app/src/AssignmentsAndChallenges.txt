@@ -1,0 +1,15 @@
+-> Assignement 1:
+
+    ---> Create two new Components (manually or with CLI): WarningAlert and SuccessAlert.
+    ---> Output them beneath each other in the AppComponent.
+    ---> Output a warning or success message in the Components.
+    ---> Style the Components appropriately (maybe some red/ green text?).
+
+        --> Use external or internal templates and styles!
+
+-> Assignement 2:
+
+    ---> Add a Input field which update a properly (Username) via Two-Way-Binding.
+    ---> Output the Username property via String Interpolation (In a paragraph below the input).
+    ---> Add a button which may only be clicked if the Username is Not an empty string.
+    ---> Upon clicking the button, the username should be reset to an empty string.

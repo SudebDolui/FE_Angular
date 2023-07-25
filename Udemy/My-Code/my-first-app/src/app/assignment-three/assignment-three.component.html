@@ -1,0 +1,35 @@
+<!-- <p>assignment-three works!</p> -->
+<!-- My Code -->
+<!-- <button class="btn btn-primary" (click)="displayToggler()">
+  Display Details
+</button>
+<p *ngIf="toggleSwitch">This is a secret Para.</p>
+<p *ngIf="!toggleSwitch"></p>
+<p
+  *ngFor="let count of clickArray"
+  [ngStyle]="{ backgroundColor: changeColor() }"
+  [ngClass]="{ changeBackground: count >= 5 }"
+>
+  This is {{ count }} click.
+</p> -->
+
+<!-- Trainer's Code -->
+<!-- <button class="btn btn-primary" (click)="showSecret = !showSecret">
+  Display Details
+</button> -->
+<button class="btn btn-primary" (click)="onToggleDetails()">
+  Display Details
+</button>
+<p *ngIf="showSecret">Secret Password = Tuna</p>
+<!-- Using manual value -->
+<!-- <div *ngFor="let logItem of log" 
+[ngStyle]="{'background-color': logItem >= 5 ? 'blue' : 'transparent'}" 
+[ngClass]="{'white-text': logItem >= 5 }"
+> {{logItem}}
+</div> -->
+<!-- Using Index value -->
+<div *ngFor="let logItem of log; let i = index" 
+[ngStyle]="{'background-color': i >= 4 ? 'blue' : 'transparent'}" 
+[ngClass]="{'white-text': i >= 4 }"
+> {{logItem}}
+</div>

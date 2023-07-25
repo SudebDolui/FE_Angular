@@ -1,0 +1,18 @@
+Useful Commands:
+
+npm install @angular/cli@latest
+ng new [ProjectName]
+ng serve or ng s --port 4781
+ng generate component [name] or ng g c [name]
+ng generate directive [name] or ng g d [name]
+
+You don't need a global install of Angular CLI. It's marginally more tiresome, but certainly less than juggling global installs. Here's the procedure:
+
+Create a new directory and enter it.
+There: npm init and (npm i @angular/cli@11.1.12).
+Then, instead of ng new myapp, run npx ng new myapp.
+
+Other Way is
+npx -p @angular/cli@8 ng new <your_project_name>
+
+Always remember --legacy-peer-deps
